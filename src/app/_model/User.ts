@@ -7,3 +7,4 @@ export class User {
     isAdmin: boolean;  
     token: string;  
 }
+//test only
