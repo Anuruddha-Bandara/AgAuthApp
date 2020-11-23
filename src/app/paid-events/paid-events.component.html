@@ -1,0 +1,15 @@
+<header></header>  
+<hr>  
+<table class="table">    
+    <thead>    
+        <tr><th>Id</th><th>Name</th><th>Place</th><th>Date</th></tr>    
+    </thead>    
+    <tbody>    
+        <tr *ngFor="let event of events, index as i">    
+            <td>{{event.id}}</td>  
+            <td>{{event.name}}</td>  
+            <td>{{event.place}}</td>  
+            <td>{{event.date}}</td>  
+        </tr>    
+    </tbody>       
+</table> 
